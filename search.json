@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "Getting started\nWelcome to this workshop!\n\n\n\n\n\n\nBefore you start\n\n\n\nMake sure you have the following:\n\nR\nRStudio\nGitHub account (free)\n\n\n\nIn this workshop you will learn to:\n\nEffectively collaborate with remote peers on a data-science project using git and GitHub.\nTrack changes and version control\nOpen-source principles\nScientific and technical publishing"
+  },
+  {
+    "objectID": "docs/github.html",
+    "href": "docs/github.html",
+    "title": "What is Git?",
+    "section": "",
+    "text": "Git is a tool that helps you track and manage changes to your files, making it easy to collaborate with others and keep a clear history of your work."
+  },
+  {
+    "objectID": "docs/github.html#first-some-role-play",
+    "href": "docs/github.html#first-some-role-play",
+    "title": "What is Git?",
+    "section": "First, some role play",
+    "text": "First, some role play\n\nMantainer:\nDeveloper:\nReporter:"
+  },
+  {
+    "objectID": "docs/github.html#second-some-practice",
+    "href": "docs/github.html#second-some-practice",
+    "title": "What is Git?",
+    "section": "Second, some practice",
+    "text": "Second, some practice\nI have created a sandbox repository for you to practice git commands.\nlink to the repo\n\nStep 1: Clone the repository to your local\nUse the terminal to clone the repository\ngit clone https://github.com/lessardlab/Workshop_March_25.git\n\n\nStep 2: Create a new branch\ngit checkout -b my_branch_name\n\n\nStep 3: Continue the story\n\nEdit the _keep_the_story_going.md file and add a new line to the story.\n\n\n\nStep 4: Add and commit your changes\ngit add _keep_the_story_going.md or git add .\ngit commit -m \"Add a new line to the story\"\n\n\nStep 5: Push your changes to the remote repository\ngit push origin my_branch_name\n\n\nStep 6: Create a pull request\nGo to the repository on GitHub and create a pull request to merge your changes into the main branch.\n\n\nStep 7: Review and merge the pull request\nReview the changes and merge the pull request.\n\n\nStep 8: Update your local repository\ngit checkout main\ngit pull origin main\nOptional: delete the source branch.\ngit branch -d my_branch_name"
+  },
+  {
+    "objectID": "docs/quarto.html",
+    "href": "docs/quarto.html",
+    "title": "What is Quarto?",
+    "section": "",
+    "text": "Quarto is an open-source publishing system that seamlessly integrates code, text, and visuals into dynamic, reproducible documents. It’s designed to streamline your workflow, combining elements of Markdown, code execution (in R, Python, Julia, and more), and modern publishing formats into one intuitive toolkit."
+  },
+  {
+    "objectID": "docs/quarto.html#how-does-quarto-work",
+    "href": "docs/quarto.html#how-does-quarto-work",
+    "title": "What is Quarto?",
+    "section": "How Does Quarto Work?",
+    "text": "How Does Quarto Work?\nYou write your document in plain Markdown with embedded code blocks. Quarto processes this into polished outputs, embedding your results, plots, tables, and interactive components seamlessly."
+  },
+  {
+    "objectID": "docs/quarto.html#how-to-collaborate-in-a-quarto-project",
+    "href": "docs/quarto.html#how-to-collaborate-in-a-quarto-project",
+    "title": "What is Quarto?",
+    "section": "How to collaborate in a Quarto project?",
+    "text": "How to collaborate in a Quarto project?\nBy combining Git and Quarto, you can collaborate in creating and publishing technical reports, papers, dashboards, books, and websites."
+  },
+  {
+    "objectID": "docs/quarto.html#my-first-quarto-website",
+    "href": "docs/quarto.html#my-first-quarto-website",
+    "title": "What is Quarto?",
+    "section": "My first Quarto website",
+    "text": "My first Quarto website\nYou don’t need to start from scratch! There are plenty of templates online. Lets fork this one\n\nStep1: Use the template in a personal repository\n\n\nStep 2: Understand the file components\n_quarto.yml : Configuration file and web structure\nindex.qmd: Landing page - indexing file\ndocs/ : directory for additional pages\nhtml/styles.scss: styling and attributes\n\n\nStep 3: Modify and adapt template to your liking\n\n\nStep 4: Preview and add the changes to the repository\nquarto preview\nquarto render\n\n\nStep 5: Commit, push, and publish.\nquarto publish"
+  }
+]
